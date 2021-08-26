@@ -1,0 +1,12 @@
+{
+    "data_folder": "C:\\EOLHostingData\\CumulusData",
+    "logs_folder": "C:\\Logs\\etl-s3-to-sql-prod",
+    "tables_to_download_config_file": "cig_mailbox_tables.json",
+    "tables_to_upload_config_file": "cig_mailbox_tables.json",
+    "data_sources": ["NL_Hosting_Mailbox"],
+    "data_sources_to_check": ["NL_Hosting_Mailbox"],
+    "ingest_from": "dsci-cig-data-131239767718-eu-west-1",
+    "ingest_to": "NLC1PRODCI01",
+    "is_execution_summary_via_slack_enabled": true,
+    "ingestion_date": ""
+}

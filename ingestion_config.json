@@ -1,0 +1,12 @@
+{
+    "data_folder": "C:\\EOLHostingData\\CumulusData",
+    "logs_folder": "C:\\Logs\\etl-s3-to-sql",
+    "tables_to_download_config_file": "table_under_test.json",
+    "tables_to_upload_config_file": "table_under_test.json",
+    "environments": ["NL","NL_Hosting_Mailbox"],
+    "environments_to_check": ["NL"],
+    "ingest_from": "dsci-cig-data-131239767718-eu-west-1",
+    "ingest_to": "LT-17-587\\MSSQL_DEV2017",
+    "is_execution_summary_via_slack_enabled": false,
+    "ingestion_date": ""
+}
